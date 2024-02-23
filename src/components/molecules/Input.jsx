@@ -2,7 +2,7 @@ import "./Input.css"
 
 function Input({placeholder, type, label}) {
     return ( 
-        <div>
+        <div className="InputClass">
             <label>{label}</label> 
             <br></br>
             <input placeholder={placeholder} type={type}></input>
